@@ -102,7 +102,7 @@ class User extends System
      * 管理员单独修改自己的密码
      */
     public function update_password() {
-        $user = UserModel::get(Session::get('uid'));
+        $user = UserModel::get(Session::get('system_user')->id);
         if($this->request->isAjax()){
             $post_data = $this->request->param();
             if($post_data['new_pwd'] != $post_data['new_pwd2']){
@@ -116,7 +116,7 @@ class User extends System
                 return getMsg("修改成功");
             }
         }else{
-
+            var_dump($user);
             $this->view->assign('info',$user);
             return $this->view->fetch();
         }
