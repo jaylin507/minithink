@@ -116,7 +116,7 @@ class User extends System
                 return getMsg("修改成功");
             }
         }else{
-            var_dump($user);
+
             $this->view->assign('info',$user);
             return $this->view->fetch();
         }
