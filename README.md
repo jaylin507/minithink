@@ -1,16 +1,12 @@
+### 由于个人原因，此项目不再升级维护，项目代码仅供学习交流，谨慎使用开发项目！！！
+
 #minithink
-### 开发手册：http://www.kancloud.cn/chuxini/minithink
+### 开发手册：https://www.kancloud.cn/jiruitech/minithink
 ### 简介
 miniThink, 一个后台快速开发框架，基于OneThink的思路启发。依赖php框架中的thinkPHP5.0版本，使用了前端框架layui以及jqadmin封装的前端模块。 封装了状态、排序、删除等常用功能，所有操作几乎全是异步，
 本次发布的为1.0.0beta版，难免会存在体验不好、BUG等，欢迎朋友们提出，最后您也可为这份开源的后台框架做份做贡献。
 项目发布在GitHub和码云，主要维护GitHub，欢迎朋友们Fork pull为miniThink贡献。
 
-* * * * *
-### 项目地址
-> GitHub：https://github.com/chuxini/minithink
-
-> 码云：https://git.oschina.net/chuxini/minithink
-* * * * *
 
 ### 版本更新
 
